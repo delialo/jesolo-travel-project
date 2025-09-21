@@ -1,10 +1,10 @@
 body {
   font-family: Poppins;
-  background: #202d44;
+  background: #443120;
 }
 
 .container {
-  max-width: 1900px;
+  max-width: 1500px;
   margin: auto;
 }
 
@@ -23,12 +23,13 @@ h3 {
 
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
-    url("../src/bg.jpg");
+    url("../src/header.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: rgba(255, 255, 255, 0.826);
-  padding: 255px;
+  padding-top: 220px;
+  padding-bottom: 180px;
 }
 
 header a {
@@ -39,7 +40,7 @@ header a {
   letter-spacing: 3px;
   text-transform: uppercase;
   text-decoration: none;
-  color: #202d44;
+  color: #443120;
   padding: 16px 32px;
   background-color: white;
   border-radius: 2px;
@@ -62,4 +63,14 @@ header a {
     font-size: 12px;
     padding: 8px 16px;
   }
+}
+
+footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    url("../src/footer.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.826);
+  padding: 100px;
 }
