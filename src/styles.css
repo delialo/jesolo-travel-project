@@ -1,32 +1,65 @@
 body {
   font-family: Poppins;
+  background: #202d44;
 }
+
 .container {
   max-width: 1900px;
   margin: auto;
 }
-h1,
-h2,
-h3,
-h4 {
-  font-weight: 700;
-}
+
 h1 {
   font-size: 96px;
 }
+
 h2 {
-  font-size: 68px;
+  font-size: 58px;
 }
+
 h3 {
   font-size: 48px;
+  font-weight: 200;
 }
+
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.2)),
     url("../src/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  color: #fff;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  color: rgba(255, 255, 255, 0.826);
+  padding: 255px;
+}
+
+header a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #202d44;
+  padding: 16px 32px;
+  background-color: white;
+  border-radius: 2px;
+}
+
+@media (max-width: 900px) {
+  header {
+    padding: 60px 0;
+  }
+  header h1 {
+    font-size: 48px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  header h3 {
+    font-size: 18px;
+  }
+  header a {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
 }
