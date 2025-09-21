@@ -1,0 +1,32 @@
+body {
+  font-family: Poppins;
+}
+.container {
+  max-width: 1900px;
+  margin: auto;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700;
+}
+h1 {
+  font-size: 96px;
+}
+h2 {
+  font-size: 68px;
+}
+h3 {
+  font-size: 48px;
+}
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("../src/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
